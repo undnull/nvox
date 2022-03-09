@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "default",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/deps/glm",
+                "${workspaceFolder}/deps/spdlog/include",
+                "${workspaceFolder}"
+            ],
+            "defines": [
+                "GLFW_INCLUDE_NONE",
+                "NOMINMAX",
+                "VGAME_CLIENT"
+            ],
+            "cppStandard": "c++17",
+            "cStandard": "c99"
+        }
+    ],
+    "version": 4
+}
